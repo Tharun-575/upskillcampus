@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;
+  padding: 20px 40px;
+  background: gray;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-links a,
+.nav-links a:link,
+.nav-links a:visited {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+.page{
+  padding: 40px;
+  max-width: 900px;
+  margin:auto;
+  color:black;
+}
+.page h1{
+  color: black;
+}
+.home-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00bcd4;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #00bcd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #0097a7;
+}
